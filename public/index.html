@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sujal's Address Book</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>📇 My Address Book</h1>
+        
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Naam" required>
+            <input type="text" id="phone" placeholder="Phone Number" required>
+            <input type="text" id="address" placeholder="Address" required>
+            <button type="submit">Save Contact</button>
+        </form>
+
+        <hr>
+
+        <input type="text" id="searchInput" placeholder="Search by name...">
+
+        <div id="contactList" class="contact-grid">
+            </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
